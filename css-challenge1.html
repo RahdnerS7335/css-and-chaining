@@ -13,9 +13,13 @@
   <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
   <script>
     $(function() {
-      
-      
-      
+      $('span').mouseenter(function() {
+        $(this).css('font-size', '30px');
+      });
+      $('span').mouseleave(function() {
+        $('span').css('font-size', '16px');
+      });
+
     });
   </script>
 </head>
